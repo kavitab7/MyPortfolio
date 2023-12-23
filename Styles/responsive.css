@@ -1,0 +1,322 @@
+@media only screen and (max-width:1109px) {
+    .projects {
+        height: 120vh;
+    }
+
+    .content_fp {
+        height: 120vh;
+        justify-content: center;
+    }
+
+    .contact {
+        flex-wrap: wrap;
+        justify-content: center;
+        height: 100vh;
+    }
+
+    .contactinfo {
+        padding: 0px;
+        margin: 0px;
+    }
+
+    .profile_pic {
+        width: 320px;
+    }
+
+    .contact {
+        height: 105vh;
+    }
+
+}
+
+@media (max-width: 1000px) {
+    .about {
+        flex-direction: column;
+        height: 120vh;
+    }
+
+    .card_box {
+        flex-wrap: wrap;
+    }
+
+    .skills {
+        margin-top: 30px;
+        height: 60vh;
+        width: 65vw;
+        margin-left: 0px;
+    }
+
+    .info {
+        width: 68%;
+        height: 40%;
+    }
+}
+
+@media only screen and (max-width:870px) {
+    .skill_box {
+        width: 10vw;
+        height: 8vh;
+    }
+
+    .imges img {
+        margin: 9px;
+        width: 243px;
+    }
+
+    .btn {
+        font-size: 2vw;
+    }
+
+    .part1 {
+        margin: 5px;
+    }
+
+    .name p {
+        font-size: 2.5vw;
+        margin-top: 79px;
+    }
+
+    .first {
+        margin: 0px;
+        padding: 0px;
+    }
+
+    .second {
+        margin: 0;
+    }
+
+    .info {
+        height: 50%;
+        margin: 44px;
+    }
+
+    .pr-header {
+        padding-bottom: 51px;
+    }
+
+    .paragraph {
+        font-size: 2.2vw;
+    }
+
+    .get-resume {
+        width: 32vw;
+        height: 5.5vh;
+    }
+
+    .content_fp {
+        height: 130vh;
+        flex-direction: column;
+    }
+
+    .about {
+        height: 105vh;
+    }
+
+    .email {
+        margin: 0px;
+    }
+
+    .form {
+        padding: 0px;
+        margin: 8px;
+    }
+
+    .contact {
+        height: 52vh;
+        padding-top: 100px;
+    }
+
+    .game-gallery {
+        width: 80%;
+    }
+
+}
+
+@media (max-width: 768px) {
+
+    .pr-header,
+    h1 {
+        font-size: 14px;
+    }
+
+    .projects {
+        height: 165vh;
+    }
+
+    .sp {
+        padding-top: 0;
+    }
+
+    .material-symbols-outlined {
+        font-size: 3.2vw;
+    }
+
+    .explore a {
+        font-size: 0.5rem;
+    }
+
+    .description {
+        font-size: 0.7rem;
+    }
+}
+
+@media only screen and (max-width:540px) {
+    .navbar li a {
+        margin: 3px 0px;
+        padding: 11px 9px;
+    }
+
+    .play {
+        margin-left: 1rem;
+    }
+
+    .navlist {
+        padding-left: 10px;
+    }
+
+    .small {
+        font-size: 25px;
+    }
+
+    .big {
+        font-size: 30px;
+    }
+
+    .skill_box {
+        margin: 5px;
+        height: 9vh;
+        font-size: 2.5vw;
+        width: 12vw;
+    }
+
+    .skills {
+        height: 43vh;
+        width: 77vw;
+        margin-left: 0%;
+    }
+
+    .info {
+        width: 75%;
+    }
+
+    .profile_pic {
+        width: 230px;
+        margin: 0px;
+    }
+
+    .navbar {
+        position: unset;
+    }
+
+    .info {
+        height: 30%;
+        padding: 35px;
+        margin: 20px;
+    }
+
+    .about {
+        height: 105vh;
+    }
+
+    .imges img {
+        width: 177px;
+    }
+
+    .content_fp {
+        height: 86vh;
+    }
+
+    .contact {
+        height: 83vh;
+        align-items: center;
+    }
+
+    .form {
+        width: 68%;
+    }
+
+    .contactinfo {
+        padding: 40px;
+        width: 80%;
+    }
+
+    .email {
+        margin: 6px;
+    }
+
+    .second {
+        margin: 1px;
+    }
+
+    .bg {
+        height: 98vh;
+    }
+
+    .name p {
+        font-size: 3vw;
+        margin-top: 88px;
+    }
+
+    .btn {
+        margin-top: 9px;
+        height: 1px;
+        font-size: 2.5vw;
+    }
+
+    .ft-text {
+        font-size: 2.2vw;
+    }
+
+    .games {
+        height: 50vh;
+    }
+
+}
+
+@media only screen and (max-width:420px) {
+    .play a {
+        width: 24vw;
+    }
+
+    .about {
+        height: 90vh;
+    }
+
+    .para {
+        font-size: 4.5vw;
+    }
+
+    .explore {
+        width: 30%;
+    }
+}
+
+@media only screen and (max-width:380px) {
+    .bg {
+        height: 93vh;
+    }
+
+    .about {
+        height: 90vh;
+    }
+
+    .custom-shape-divider-top-1698039154 {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        overflow: hidden;
+        line-height: 0;
+    }
+
+    .custom-shape-divider-top-1698039154 svg {
+        position: relative;
+        display: block;
+        width: calc(245% + 1.3px);
+        height: 189px;
+    }
+
+    .custom-shape-divider-top-1698039154 .shape-fill {
+        fill: #242424F7;
+    }
+}

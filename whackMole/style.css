@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Assistant:wght@600&family=Barlow+Condensed:ital,wght@0,300;1,400&family=DM+Serif+Display&family=Roboto+Condensed:wght@700&family=Roboto:wght@100;300&family=Ubuntu:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12);
+    height: 100vh;
+}
+
+.main {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+h2,
+h1 {
+    margin-bottom: 11px;
+    color: white;
+    font-family: 'DM Serif Display', serif;
+}
+
+#board {
+    width: 50%;
+    height: 75%;
+    display: grid;
+    grid-template-rows: 28% 28% 28%;
+    grid-template-columns: 28% 28% 28%;
+    grid-column-gap: 2%;
+    grid-row-gap: 2%;
+    background: url("board.png");
+    background-size: cover;
+    background-position: center;
+    justify-content: center;
+    box-shadow: 0 6px 6px black;
+    border-radius: 25px;
+    padding: 2%;
+    padding-bottom: 0%;
+}
+
+#board div {
+    background-image: url("soil.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    cursor: pointer;
+}
+
+#board div img {
+    height: 70%;
+    width: 70%;
+    user-select: none;
+}
+
+@media only screen and (max-width:850px) {
+    .main {
+        height: 77vh;
+    }
+}
+
+@media only screen and (max-width:650px) {
+    #board {
+        width: 70%;
+    }
+}
+
+@media only screen and (max-width:450px) {
+    .main {
+        height: 62vh;
+    }
+}

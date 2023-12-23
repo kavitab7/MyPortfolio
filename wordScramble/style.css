@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    background: linear-gradient(45deg, #5a55ae 13%, #7b5fac 25%, #8f6aae 38%, #a86aa4 50%, #cc6b8e 62%, #f18271 75%, #f3a469 87%, #f7c978 100%);
+    ;
+    background-size: 400% 400%;
+    position: relative;
+    animation: animate 7.5s ease-in-out infinite;
+
+}
+
+.gameArea {
+    /* color: white; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* margin-top: 5%; */
+    height: 70%;
+    width: 50%;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, .2);
+    font-size: 2vw;
+}
+
+@keyframes animate {
+    0% {
+        background-position: 0 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0 50%;
+    }
+}
+
+h1 {
+    text-transform: uppercase;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 10vh;
+    font-family: 'Fjalla One', sans-serif;
+    color: white;
+    /* background-color: rgba(255, 255, 255, .2); */
+    font-size: 3vw;
+}
+
+input {
+    padding: 0px 10px;
+    margin: 20px;
+    height: 8%;
+    width: 30%;
+    border-radius: 15px;
+    background-color: #bdc3c7;
+    border: none;
+}
+
+.btn {
+    margin: 5px;
+    height: 8%;
+    padding: 0px 20px;
+    border-radius: 7px;
+    color: white;
+    font-weight: 900;
+    background: none;
+    border: none;
+    cursor: pointer;
+    border: 1.5px solid white;
+}
+
+.btn:hover {
+    background-color: rgba(17, 17, 17, 0.2);
+    scale: 1.1;
+}
+
+.hidden {
+    display: none;
+}
+
+@media screen and (max-width: 670px) {
+    .gameArea {
+        width: 75%;
+        height: 55%;
+    }
+}

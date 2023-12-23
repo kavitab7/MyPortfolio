@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Assistant:wght@600&family=Barlow+Condensed:ital,wght@0,300;1,400&family=Roboto+Condensed:wght@700&family=Roboto:wght@100;300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+h1 {
+    padding: 60px 0px;
+    color: rgb(33 155 115);
+    font-family: 'Fjalla One', sans-serif;
+    text-transform: uppercase;
+}
+
+.game-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: black;
+    align-items: center;
+    width: 100vw;
+}
+
+.all-games {
+    width: 90vw;
+    display: grid;
+    grid-template-rows: 250px 250px;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 310px));
+    gap: 40px;
+    justify-content: center;
+    grid-auto-rows: 250px;
+    margin-bottom: 90px;
+    font-family: 'Roboto Condensed', sans-serif;
+
+    & a {
+        text-decoration: none;
+        color: rgb(0, 0, 0);
+        height: 17%;
+        width: 40%;
+        background: #fff;
+        background: rgba(255, 255, 255, 0.5);
+        position: absolute;
+        bottom: 10%;
+        right: 10%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 8px;
+    }
+}
+
+/* grid-row :1/2  means start from 1 and end to 2*/
+h2 {
+    padding: 20px 0px;
+}
+
+.game {
+    position: relative;
+    box-shadow: 7px 7px 5px 0px rgb(22, 22, 22);
+    border-radius: 10px;
+    border: 1px solid rgb(51 51 51);
+}
+
+.game1 {
+    background: url('../memory/memorySS.png');
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: center;
+
+}
+
+.game2 {
+    background: url('../snake/snakeSS.png');
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: center;
+}
+
+.game3 {
+    background: url('../FlappyBird/flappySS.png');
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: center;
+}
+
+.game4 {
+    background: url('../whackMole/moleSS.png');
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: center;
+}
+
+.game5 {
+    background: url('../wordScramble/wordSS.png');
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: center;
+}
+
+.game6 {
+    background: url('../tictactoe/ticSS.png');
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: center;
+}
