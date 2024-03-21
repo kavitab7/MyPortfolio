@@ -327,10 +327,11 @@ h1 {
 }
 
 .contact {
-    background-color: rgb(6 6 6);
+    background-image: linear-gradient(328deg, rgba(15, 15, 15, 0.04) 0%, rgba(15, 15, 15, 0.04) 35%, rgba(113, 113, 113, 0.04) 35%, rgba(113, 113, 113, 0.04) 42%, rgba(210, 210, 210, 0.04) 42%, rgba(210, 210, 210, 0.04) 100%), linear-gradient(250deg, rgba(15, 15, 15, 0.04) 0%, rgba(15, 15, 15, 0.04) 25%, rgba(113, 113, 113, 0.04) 25%, rgba(113, 113, 113, 0.04) 30%, rgba(210, 210, 210, 0.04) 30%, rgba(210, 210, 210, 0.04) 100%), linear-gradient(245deg, rgba(15, 15, 15, 0.04) 0%, rgba(15, 15, 15, 0.04) 13%, rgba(113, 113, 113, 0.04) 13%, rgba(113, 113, 113, 0.04) 27%, rgba(210, 210, 210, 0.04) 27%, rgba(210, 210, 210, 0.04) 100%), linear-gradient(270deg, rgb(0, 0, 0), rgb(0, 0, 0));
     color: white;
     display: flex;
-    height: 67vh;
+    height: 90vh;
+    position: relative;
 }
 
 .contactinfo {

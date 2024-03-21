@@ -5,7 +5,6 @@
 
 }
 
-
 .pr-header {
     padding: 35px;
     color: #b3b3b3;
@@ -33,7 +32,7 @@
         font-weight: 600;
         font-family: 'Ubuntu', sans-serif;
         padding-top: 10px;
-        color: rgb(0, 14, 9);
+
     }
 
     & a {
@@ -63,7 +62,7 @@
     backdrop-filter: blur(1.5px);
     height: 100%;
     width: 100%;
-    padding: 8%;
+    padding: 6%;
 
     & h3 {
         margin: 5px;
@@ -76,18 +75,22 @@
     background-image: url('../medicy.png');
     background-size: cover;
     background-position: center;
+
 }
 
 #card2 {
-    background-image: url('../blog.png');
+    background-image: url('../dashboard.png');
     background-size: cover;
     background-position: center;
 }
 
 #card3 {
-    background-image: url('../todo.png');
+    background-image: url('../chat.png');
     background-size: cover;
     background-position: center;
+    color: white;
+    border: 1px solid #131313;
+
 }
 
 .card:hover {
@@ -117,9 +120,13 @@
 }
 
 .ft {
-    padding: 17px;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    width: 100%;
+    padding: 10px;
     text-align: center;
-    background-color: rgb(6 6 6);
+    /* background-color: rgb(6 6 6); */
     color: white;
     font-size: 12px;
 }
